@@ -15,12 +15,13 @@
                     <h3>ndp - third largest canadian party</h3>
                     <p>Founded in 1961, the New Democratic Party was founded from the merger of the Co-operative Commonwealth Federation (CCF) with the Canadian Labour Congress (CLC).The NDP created Canada’s Universal Healthcare system in 1984. Although having distanced itself from the image, it is Canada’s largest democratic socialist party.
                     </p>
-                    <a href="#">see party mp</a>
+                    <button class="primary-btn" onclick="loadXMLDoc('NDP', 'CaucusShortName')">SEE PARTY'S MPs</button>
                 </div>
                 <div class="leader-container small-12 medium-6 large-6 columns">
                     <img src="img/parties/ndp-leader.jpg" alt="Leader Image" />
                     <p>Leader - Tom Mulcair</p>
                 </div>
+                <table class="large-12 columns" id="mp"></table>
             </div>
 
             <!-- XML -->

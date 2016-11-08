@@ -4,7 +4,7 @@
         <h1>who's my mp</h1>
     </section>
 
-    <main class="mp-main">
+    <main onload="loadXMLDoc('', '')" class="mp-main">
         <!-- MAP SECTION-->
         <section class="map-section">
             <div class="map-svg">
@@ -14,7 +14,7 @@
 
         <!-- PARTY DESCRIPTION SECTION -->
         <section class="mp-list-section">
-
+            <table id="mp"></table>
         </section>
     </main>
 
