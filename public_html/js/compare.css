@@ -1,0 +1,31 @@
+.votePoints {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height: auto;
+	background-color: #ffffff;
+	opacity: 0.85;
+	z-index: 99;
+}
+.points-liberal {
+	background-color: #d71920;
+	color: #ffffff;
+}
+.points-con {
+	background-color: #01209f;
+	color: #ffffff;
+}
+.points-green {
+	background-color: #f37021; 
+	color: #ffffff;
+}
+.points-ndp {
+	background-color: #3d9b35;
+	color: #ffffff;
+}
+
+.votePoints > div {
+	height: 100px;
+}

@@ -54,57 +54,73 @@ $(document).ready(function() {
     ////////////////////////////////////
     /// Voting System - LocalStorage ///
     ////////////////////////////////////
-    let lCount = 0;
+    
+    /*let lCount = 0;
     let cCount = 0;
     let gCount = 0;
-    let nCount = 0;
+    let nCount = 0;*/
 
-    function getStoredItem(name){
+    /*function getStoredItem(name){
         return localStorage.getItem(name);
-    }
+    }*/
 
     $('.vote').click(function(){
         $('.votePoints').show();
-        myStorage = localStorage;
+        //myStorage = localStorage;
         
         // if this has liberal class
         if ($(this).hasClass('vote-liberal')){
-            console.log('works');
             /// Add point when clicked
-            lCount += 1;
+            if (localStorage.lCount) {
+                localStorage.lCount = Number(localStorage.lCount) + 1;
+            }
+            else {
+                localStorage.lCount = 1;
+            }
             /// Prevent from revoting
             $(this).removeClass('vote-liberal');
         }
         // // if this has conservative class
         if ($(this).hasClass('vote-con')){
-            console.log('con');
-            cCount += 1;
+            if (localStorage.cCount) {
+                localStorage.cCount = Number(localStorage.cCount) + 1;
+            }
+            else {
+                localStorage.cCount = 1;
+            }
             $(this).removeClass('vote-con');
         }
         // // if this has green class
         if ($(this).hasClass('vote-green')){
-            gCount += 1;
+            if (localStorage.gCount) {
+                localStorage.gCount = Number(localStorage.gCount) + 1;
+            }
+            else {
+                localStorage.cCount = 1;
+            }
             $(this).removeClass('vote-green');
         }
         // // if this has npd class
         if ($(this).hasClass('vote-ndp')){
-            nCount += 1;
+            if (localStorage.nCount) {
+                localStorage.nCount = Number(localStorage.nCount) + 1;
+            }
+            else {
+                localStorage.nCount = 1;
+            }
             $(this).removeClass('vote-ndp');
         }
         /// Save localstorage
-        localStorage.setItem('liberalVote', lCount);
+        /*localStorage.setItem('liberalVote', lCount);
         localStorage.setItem('conVote', cCount);
         localStorage.setItem('greenVote', gCount);
-        localStorage.setItem('ndpVote', nCount);
-
-        console.log(getStoredItem('liberalVote'));
-        console.log(cCount);
+        localStorage.setItem('ndpVote', nCount);*/
 
         /// display votes on page
-        $('.points-liberal>p').text(getStoredItem('liberalVote'));
-        $('.points-con>p').text(getStoredItem('conVote'));
-        $('.points-green>p').text(getStoredItem('greenVote'));
-        $('.points-ndp>p').text(getStoredItem('ndpVote'));
+        $('.points-liberal>p').text(localStorage.lCount);
+        $('.points-con>p').text(localStorage.cCount);
+        $('.points-green>p').text(localStorage.gCount);
+        $('.points-ndp>p').text(localStorage.nCount);
 
         //////////////////////////
         /// Chart.js by Andrew ///
@@ -118,7 +134,7 @@ $(document).ready(function() {
                 datasets: [
                     {
                         label: '# of Votes',
-                        data: [getStoredItem('liberalVote'), getStoredItem('conVote'), getStoredItem('greenVote'), getStoredItem('ndpVote')], /// Data, # of votes
+                        data: [localStorage.lCount, localStorage.cCount, localStorage.nCount, localStorage.gCount], /// Data, # of votes
                         backgroundColor: [
                             '#d71920',
                             '#01209f',
