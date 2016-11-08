@@ -58,3 +58,18 @@ FOOTER
     padding: 15px 25px;
     width: 90%;
 }
+
+/*MP*/
+
+.map-section{
+    background-color: #424040;
+    padding: 33px;
+}
+
+.map-svg{
+    width: 570px;
+    display: block;
+    margin: 0 auto;
+
+}
+
