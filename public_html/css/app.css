@@ -105,17 +105,13 @@ HEADER
     float: right;
 }
 
-.left{
-    float: left;
-}
-
 
 /*============
 FOOTER
 =============*/
 .page-footer{
     position: relative;
-    padding: 64px 0;
+    padding: 64px 50px;
 }
 
 .footer-second-row{
@@ -124,40 +120,6 @@ FOOTER
 
 .footer-spacing{
     margin-top: 31px;
-}
-
-.social-spacing{
-    margin-left: 33px;
-}
-
-.submit-border{
-    border: solid #a0a0a0 2px;
-    margin-bottom: 125px;
-}
-
-.footer-title{
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    font-size: 1.304em;
-}
-
-.footer-body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.327em;
-}
-
-.inline-block{
-    display: inline-block;
-}
-
-.border-padding{
-    padding: 5px;
-}
-
-.submit-input{
-    height: 38px;
-    padding: 15px 25px;
-    width: 90%;
 }
 
 /*============
