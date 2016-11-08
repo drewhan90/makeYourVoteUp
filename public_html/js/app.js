@@ -87,4 +87,67 @@ $(document).ready(function() {
         console.log(tab);
         console.log(event);
     })
+
+    ////////////////////////////////////
+    /// Voting System - LocalStorage ///
+    ////////////////////////////////////
+    let lCount = 0;
+    let cCount = 0;
+    let gCount = 0;
+    let nCount = 0;
+
+    function getStoredItem(name){
+        return localStorage.getItem(name);
+    }
+
+    $('.vote').click(function(){
+        $('.votePoints').show();
+        myStorage = localStorage;
+        
+        // if this has liberal class
+        if ($(this).hasClass('vote-liberal')){
+            console.log('works');
+            /// Add point when clicked
+            lCount += 1;
+            /// Prevent from revoting
+            $(this).removeClass('vote-liberal');
+        }
+        // // if this has conservative class
+        if ($(this).hasClass('vote-con')){
+            console.log('con');
+            cCount += 1;
+            $(this).removeClass('vote-con');
+        }
+        // // if this has green class
+        if ($(this).hasClass('vote-green')){
+            gCount += 1;
+            $(this).removeClass('vote-green');
+        }
+        // // if this has npd class
+        if ($(this).hasClass('vote-ndp')){
+            nCount += 1;
+            $(this).removeClass('vote-ndp');
+        }
+        /// Save localstorage
+        localStorage.setItem('liberalVote', lCount);
+        localStorage.setItem('conVote', cCount);
+        localStorage.setItem('greenVote', gCount);
+        localStorage.setItem('ndpVote', nCount);
+
+        console.log(getStoredItem('liberalVote'));
+        console.log(cCount);
+
+        /// display votes on page
+        $('.points-liberal>p').text(getStoredItem('liberalVote'));
+        $('.points-con>p').text(getStoredItem('conVote'));
+        $('.points-green>p').text(getStoredItem('greenVote'));
+        $('.points-ndp>p').text(getStoredItem('ndpVote'));
+    });
+
+    $(document).mouseup(function(e) {
+        const container = $('.votePoints');
+        if (!container.is(e.arget) && container.has(e.target).length ===0){
+            container.hide();
+        }
+    });
 });
