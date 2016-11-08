@@ -15,12 +15,13 @@
                     <h3>conservative - her majesty’s loyal opposition</h3>
                     <p>The Conservative Party of Canada as we know it was founded in 2003 and is the successor to multiple right-wing parties which have existed in Canada for over a century. Founded on the ideologies of fiscal conservatism and economic liberalism.
                     </p>
-                    <a href="#">see party mp</a>
+                    <button class="primary-btn" onclick="loadXMLDoc('Conservative', 'CaucusShortName')">SEE PARTY'S MPs</button>
                 </div>
                 <div class="leader-container small-12 medium-6 large-6 columns">
                     <img src="img/parties/con-leader.jpg" alt="Leader Image" />
                     <p>Leader - Rona Ambrose</p>
                 </div>
+                <table class="large-12 columns" id="mp"></table>
             </div>
 
             <!-- XML -->
