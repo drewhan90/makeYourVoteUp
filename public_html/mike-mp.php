@@ -33,10 +33,6 @@
             <table class="table-spacing" id="mp"></table>
         </section>
     </main>
-
-    <script>
-
-    </script>
 <?php include 'partials/mike-footer.php';?>
 
 <!-- JQUERY -->
@@ -46,12 +42,10 @@
 <script src="js/vendor/what-input.js"></script>
 <script src="js/vendor/foundation.js"></script>
 <script src="js/jquery.flexslider.js"></script>
-<!-- Chart.js -->
-<script src="modules/chart/chart.js/dist/Chart.js"></script>
-<script src="js/app.js"></script>
 <!-- XML -->
 <script src="js/xml-table-generator.js"></script>
-
+<!-- SVG JS -->
+<script src="js/svg-animate.js"></script>
 </body>
 
 </html>
