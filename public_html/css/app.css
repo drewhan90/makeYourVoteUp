@@ -350,11 +350,11 @@ figure.snip1091.hover figcaption:after {
 PARTY INFO
 =============*/
 .party-hero {
-    height: 90vh;
+    height: 350px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 210px;
+    padding-top: 150px;
     margin-bottom: 30px;
 }
 
@@ -587,7 +587,6 @@ TABLET
     PARTY INFO
     =============*/
     .party-hero {
-        padding-top: 300px;
         margin-bottom: 50px;
     }
     .party-hero h1 {
