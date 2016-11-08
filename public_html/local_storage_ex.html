@@ -1,0 +1,51 @@
+<html>
+	<h1 id="work"></h1>
+	<button onClick="partyVote('green')">GREEN</button>
+	<button onClick="partyVote('con')">GREEN</button>
+	<button onClick="partyVote('ndp')">GREEN</button>
+	<button onClick="partyVote('liberal')">GREEN</button>
+</html>
+
+<script>
+//SET VARIABLE AND ++ for each party
+//Could be a lot shorter, but I'm not sure how to pass the parameter into sessionStorage.party
+//Have to ask James about dealing with duplicates
+
+//Current idea
+//Pass Second paramater denoting which question it is
+//Put in array
+//loop through array each time to see if that number has been pressed
+function partyVote(party){
+	if(party == "green"){
+		if (sessionStorage.green) {
+		    sessionStorage.green = Number(sessionStorage.green) + 1;
+		} else {
+		    sessionStorage.green = 1;
+		}
+	}
+	if(party == "con"){
+		if (sessionStorage.con) {
+		    sessionStorage.con = Number(sessionStorage.con) + 1;
+		} else {
+		    sessionStorage.con = 1;
+		}
+	}
+	if(party == "liberal"){
+		if (sessionStorage.liberal) {
+		    sessionStorage.liberal = Number(sessionStorage.liberal) + 1;
+		} else {
+		    sessionStorage.liberal = 1;
+		}
+	}
+	if(party == "ndp"){
+		if (sessionStorage.ndp) {
+		    sessionStorage.ndp = Number(sessionStorage.ndp) + 1;
+		} else {
+		    sessionStorage.ndp = 1;
+		}
+	}
+}
+//Displays information stored
+//its normal js
+document.getElementById("work").innerHTML = localStorage.green;
+</script>
