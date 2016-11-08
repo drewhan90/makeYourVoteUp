@@ -5,26 +5,26 @@
         <div class="flexslider">
             <ul class="slides">
                 <li>
-                    <video controls>
+                    <video muted>
                         <source src="vid/vid1.mp4" type="video/mp4">
                         <p>Your browser does not support HTML5 video.</p>
                     </video>
 
                 </li>
                 <li>
-                    <video controls>
+                    <video muted>
                         <source src="vid/vid2.mp4" type="video/mp4">
                         <p>Your browser does not support HTML5 video.</p>
                     </video>
                 </li>
                 <li>
-                    <video controls>
+                    <video muted>
                         <source src="vid/vid3.mp4" type="video/mp4">
                         <p>Your browser does not support HTML5 video.</p>
                     </video>
                 </li>
                 <li>
-                    <video controls>
+                    <video muted>
                         <source src="vid/vid4.mp4" type="video/mp4">
                         <p>Your browser does not support HTML5 video.</p>
                     </video>
