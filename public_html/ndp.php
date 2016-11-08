@@ -63,22 +63,23 @@
                             </ul>
                         </nav>
                         <!-- TAB CONTENTS-->
-                        <div class="content-wrap">
-                            <div id="liberal-tab-box-1">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-2">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-3">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-4">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-5">
-                                <p>lorem ipsum</p>
-                            </div>
+                        <!-- Tab Btns -->
+                        <ul class="tabs" data-tabs id="policy-tabs">
+                          <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Health Care</a></li>
+                          <li class="tabs-title"><a href="#panel2">Youth issues</a></li>
+                          <li class="tabs-title"><a href="#panel3">Syrian Refugees</a></li>
+                        </ul>
+                        <!-- Tab Content -->
+                        <div class="tabs-content" data-tabs-content="policy-tabs">
+                          <div class="tabs-panel is-active" id="panel1">
+                            <p>The NDP promise 1.8 billion over 4 years to ensure universal access to prescription medication for Canadians. They would also spend 40 million over four years to develop a nationwide alzheimer's and dementia strategy. Lastly, the NDP would earmark 500 million to expand health care clinics and hire new health care providers.</p>
+                          </div>
+                          <div class="tabs-panel" id="panel2">
+                            <p>$100 million to improve mental health services for youth, and an additional $200 million over 4 years to help youth find employment, including cracking down on unpaid internships.</p>
+                          </div>
+                          <div class="tabs-panel" id="panel3">
+                            <p>Bring in 10,000 Syrian refugees by the end of the year, and resettle 9,000 every year until 2019.</p>
+                          </div>
                         </div>
                     </div>
                 </div>

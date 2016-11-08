@@ -63,22 +63,23 @@
                             </ul>
                         </nav>
                         <!-- TAB CONTENTS-->
-                        <div class="content-wrap">
-                            <div id="liberal-tab-box-1">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-2">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-3">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-4">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-5">
-                                <p>lorem ipsum</p>
-                            </div>
+                        <!-- Tab Btns -->
+                        <ul class="tabs" data-tabs id="policy-tabs">
+                          <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Marijuana legalization</a></li>
+                          <li class="tabs-title"><a href="#panel2">Youth Issues</a></li>
+                          <li class="tabs-title"><a href="#panel3">Pipelines</a></li>
+                        </ul>
+                        <!-- Tab Content -->
+                        <div class="tabs-content" data-tabs-content="policy-tabs">
+                          <div class="tabs-panel is-active" id="panel1">
+                            <p>The complete legalization of marijuana and tax collection on the industry.</p>
+                          </div>
+                          <div class="tabs-panel" id="panel2">
+                            <p>The elimination of all tuition fees by 2020, by starting off with nixing them for low income students.</p>
+                          </div>
+                          <div class="tabs-panel" id="panel3">
+                            <p>The complete opposition of all pipeline proposals.</p>
+                          </div>
                         </div>
                     </div>
                 </div>

@@ -62,22 +62,23 @@
                             </ul>
                         </nav>
                         <!-- TAB CONTENTS-->
-                        <div class="content-wrap">
-                            <div id="liberal-tab-box-1">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-2">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-3">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-4">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-5">
-                                <p>lorem ipsum</p>
-                            </div>
+                        <!-- Tab Btns -->
+                        <ul class="tabs" data-tabs id="policy-tabs">
+                          <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Marijuana legalization</a></li>
+                          <li class="tabs-title"><a href="#panel2">Syrian Refugees</a></li>
+                          <li class="tabs-title"><a href="#panel3">Youth issues</a></li>
+                        </ul>
+                        <!-- Tab Content -->
+                        <div class="tabs-content" data-tabs-content="policy-tabs">
+                          <div class="tabs-panel is-active" id="panel1">
+                            <p>The complete legalization of marijuana and tax collection on the industry.</p>
+                          </div>
+                          <div class="tabs-panel" id="panel2">
+                            <p>Immediately admit 25,000 refugees from Syria, and invest an additional $100 million to increase refugee processing, sponsorship, and settlement.</p>
+                          </div>
+                          <div class="tabs-panel" id="panel3">
+                            <p>$1.3 billion over 3 years to create jobs for young people, including more guides and interpreters for Park Canada.</p>
+                          </div>
                         </div>
                     </div>
                 </div>
