@@ -217,7 +217,9 @@ INDEX
 }
 
 .parties-links-section {
+    background-color: #f0eeee;
     padding: 50px 0;
+    margin-top: 50px;
 }
 
 .parties-links-section h1 {
