@@ -105,6 +105,25 @@ HEADER
     float: right;
 }
 
+.menu {
+    margin-top: 20px;
+}
+
+.top-bar a:not(.primary-btn) {
+    font-weight: 600;
+    color: #0a0a0a;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #ffffff;
+}
+
+.primary-btn {
+    color: #e8112d;
+    border: solid #e8112d 2px;
+    padding: 7px;
+    text-transform: uppercase;
+}
 
 /*============
 FOOTER
