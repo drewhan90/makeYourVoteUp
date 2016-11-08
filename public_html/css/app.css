@@ -148,6 +148,7 @@ FOOTER
 .page-footer{
     position: relative;
     padding: 64px 50px;
+    border-top: solid 1px #f0eeee;
 }
 
 .footer-second-row{
@@ -385,6 +386,10 @@ PARTY INFO
 .tabs-title > a {
     color: grey;
     background: #dfe3e1;
+}
+
+.parties-links {
+    margin: 50px 0;
 }
 
 
