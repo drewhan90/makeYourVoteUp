@@ -3,7 +3,14 @@ $(document).foundation()
 $(document).ready(function() {
     $('.flexslider').flexslider({
         animation: "slide",
-        randomize: "Boolean"
+        randomize: true,
+        directionNav: false
+    });
+
+    // Autoplay
+    var $video = $('video');
+        $video.on('canplaythrough', function() {
+        this.play();
     });
 
     // ACCORDION
