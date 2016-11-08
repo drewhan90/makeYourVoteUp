@@ -63,22 +63,23 @@
                             </ul>
                         </nav>
                         <!-- TAB CONTENTS-->
-                        <div class="content-wrap">
-                            <div id="liberal-tab-box-1">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-2">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-3">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-4">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-5">
-                                <p>lorem ipsum</p>
-                            </div>
+                        <!-- Tab Btns -->
+                        <ul class="tabs" data-tabs id="policy-tabs">
+                          <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Senate Reform or Abolition</a></li>
+                          <li class="tabs-title"><a href="#panel2">Syrian Refugees</a></li>
+                          <li class="tabs-title"><a href="#panel3">Youth Issues</a></li>
+                        </ul>
+                        <!-- Tab Content -->
+                        <div class="tabs-content" data-tabs-content="policy-tabs">
+                          <div class="tabs-panel is-active" id="panel1">
+                            <p>Stephen Harper wants a senate that would require all senators to be democratically elected. Before the campaign began, he announced that he would stop appointing Senators in an effort to force the provinces to agree to a reform.</p>
+                          </div>
+                          <div class="tabs-panel" id="panel2">
+                            <p>Create a new three year, $9 million program to assist persecuted religious minorities and would accept 10,000 refugees over 4 years.</p>
+                          </div>
+                          <div class="tabs-panel" id="panel3">
+                            <p>Reallocate $7 million over 2 years to support the relocation of youth and immigrants to areas where job opportunities exist.</p>
+                          </div>
                         </div>
                     </div>
                 </div>

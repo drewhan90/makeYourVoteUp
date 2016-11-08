@@ -374,6 +374,16 @@ PARTY INFO
     color: #777676;
     margin-top: 5px;
 }
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+    border-top: 5px solid #e8112d;
+    color: #e8112d;
+    background-color: #ffffff;
+}
+
+.tabs-title > a {
+    color: grey;
+    background: #dfe3e1;
+}
 
 
 /* PARTY 1*/
