@@ -1,5 +1,6 @@
-<footer class="page-footer row">
-    <div class="large-6 columns">
+<footer class="page-footer">
+    <div class="row">
+        <div class="large-6 columns">
         <ul>
             <li>
                 <h2 class="footer-header">SIGN UP FOR THE NEWSLETTER</h2></li>
@@ -34,6 +35,7 @@
                 <a class="jump-to-top right" href="#"><img src="img/icon/up-arrow.png" alt="click to jump to top of page"></a>
             </li>
         </ul>
+    </div>
     </div>
 </footer>
 
