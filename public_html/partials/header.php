@@ -16,7 +16,7 @@
 	<div class="top-bar">
 		<div class="top-bar-title">
 			<!-- Logo -->
-			<img src="img/final-logo.png" alt="Make Your Vote Up Logo" class="logo">
+			<a href="index.php"><img src="img/final-logo.png" alt="Make Your Vote Up Logo" class="logo"></a>
 			<span data-responsive-toggle="responsive-menu" data-hide-for="medium">
 		      	<button class="menu-icon dark" type="button" data-toggle></button>
 		    </span>
