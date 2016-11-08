@@ -542,6 +542,10 @@ COMPARE PARTIES
     display: block;
 }
 
+.chart-section {
+    padding: 50px 0;
+}
+
 /*============
 TABLET
 =============*/
