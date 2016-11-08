@@ -527,7 +527,7 @@ TABLET
     /*============
     INDEX
     =============*/
-    .parties-links-section h1 {
+    .parties-links-section h1, .parties-links h1 {
         padding: 0 0.9375rem;
     }
     /*============
@@ -592,7 +592,7 @@ DESKTOP
     .flexslider {
         margin: 0 0 110px;
     }
-    .parties-links-section h1 {
+    .parties-links-section h1, .parties-links h1 {
         max-width: 75rem;
         margin: auto;
         margin-bottom: 10px;
