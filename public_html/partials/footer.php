@@ -5,12 +5,12 @@
             <li>
                 <h2 class="footer-header">SIGN UP FOR THE NEWSLETTER</h2></li>
             <li class="footer-spacing">
-                <div>
-                    <input class="submit-border inline-block submit-input left" type="email" placeholder="Email Address">
-                    <button class="left" type="submit">
+                <form action="email_process.php" method="post">
+                    <input class="submit-border inline-block submit-input left" type="email" placeholder="Email Address" name="email" required>
+                    <button class="left" name="submit" type="submit">
                         <img class="submit-border border-padding inline-block" class="inline" src="img/icon/icon-submit.png" alt="click to submit email">
                     </button>
-                </div>
+                </form>
             </li>
             <li>
                 <h2 class="footer-header">&copy;2016 MAKE YOUR VOTE UP</h2></li>
