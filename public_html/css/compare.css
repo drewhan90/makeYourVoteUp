@@ -4,8 +4,9 @@
 	bottom: 0;
 	left: 0;
 	width: 100vw;
-	height: 10vh;
+	height: auto;
 	background-color: #ffffff;
+	opacity: 0.85;
 	z-index: 99;
 }
 .points-liberal {
@@ -23,4 +24,8 @@
 .points-ndp {
 	background-color: #3d9b35;
 	color: #ffffff;
+}
+
+.votePoints > div {
+	height: 100px;
 }
