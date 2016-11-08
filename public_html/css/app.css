@@ -125,6 +125,10 @@ HEADER
     text-transform: uppercase;
 }
 
+/* nav dropdown down icon */
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-color: #e8112d transparent transparent !important;
+}
 /*============
 FOOTER
 =============*/

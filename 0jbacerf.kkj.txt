@@ -1,0 +1,30 @@
+﻿Merge branch 'master' into Final-svg-shit
+
+# Conflicts:
+#	public_html/partials/header.php
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch Final-svg-shit
+# Your branch is up-to-date with 'origin/Final-svg-shit'.
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	new file:   Documentation/Mockup/png/Thumbs.db
+#	new file:   eh5nhv4a.dkx.txt
+#	modified:   public_html/css/app.css
+#	modified:   public_html/partials/header.php
+#	new file:   ugj2lkcu.qeg.txt
+#
+# Untracked files:
+#	5jnpwgzg.pnh.txt
+#	lnx5yb4l.pds.txt
+#
+
