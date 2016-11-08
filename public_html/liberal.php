@@ -14,12 +14,13 @@
                 <div class="about-content party-about small-12 medium-6 large-6 columns">
                     <h3>liberal - majority government</h3>
                     <p>Founded 1867, the Liberal Party were originally the party in favour of free trade with the USA and were against Imperialism. The Liberal Party has dominated federal politics for much of Canada's history, using the formula for success of straddling the political center developed under the leadership of Sir Wilfred Laurier. The Liberal Party has held power for almost 69 years in the 20th century—more than any other party in a developed country.</p>
-                    <a href="#">see party mp</a>
+                    <button class="primary-btn" onclick="loadXMLDoc('Liberal', 'CaucusShortName')">SEE PARTY'S MPs</button>
                 </div>
                 <div class="leader-container small-12 medium-6 large-6 columns">
                     <img src="img/parties/libera-leader.jpg" alt="Leader Image" />
                     <p>Leader - Justin Trudeau (Prime Minister)</p>
                 </div>
+                <table class="large-12 columns" id="mp"></table>
             </div>
 
             <!-- XML -->
