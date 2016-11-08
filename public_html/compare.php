@@ -271,19 +271,19 @@
         </section>
 
         <section class="votePoints">
-            <div class="points-liberal large-3 columns">
+            <div class="points-liberal small-3 medium-3 large-3 columns">
                 <h3>Liberal Votes:</h3>
                 <p></p>
             </div>
-            <div class="points-con large-3 columns">
+            <div class="points-con small-3 medium-3 large-3 columns">
                 <h3>Conservative Votes:</h3>
                 <p></p>
             </div>
-            <div class="points-ndp large-3 columns">
+            <div class="points-ndp small-3 medium-3 large-3 columns">
                 <h3>Green Votes:</h3>
                 <p></p>
             </div>
-            <div class="points-green large-3 columns">
+            <div class="points-green small-3 medium-3 large-3 columns">
                 <h3>New Democratic Votes:</h3>
                 <p></p>
             </div>
