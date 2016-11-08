@@ -113,6 +113,10 @@ HEADER
     font-weight: 600;
     color: #0a0a0a;
 }
+/* Nav Menu Hover */
+.top-bar a:not(.primary-btn):hover {
+    color: #e8112d;
+}
 
 .top-bar, .top-bar ul {
     background-color: #ffffff;
@@ -123,6 +127,15 @@ HEADER
     border: solid #e8112d 2px;
     padding: 7px;
     text-transform: uppercase;
+    font-weight: 600;
+}
+.primary-btn:hover {
+    background-color: #e8112d;
+    color: #ffffff;
+}
+.submenu a:hover {
+    background-color: #e8112d;
+    color: #ffffff !important;
 }
 
 /* nav dropdown down icon */
