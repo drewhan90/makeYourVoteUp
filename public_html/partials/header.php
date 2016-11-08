@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/flexslider.css" type="text/css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/mike-footer.app.css">
+    <link rel="stylesheet" href="css/compare.css">
 </head>
 
 <body>
