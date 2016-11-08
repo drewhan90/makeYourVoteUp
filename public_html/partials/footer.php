@@ -49,6 +49,8 @@
 <!-- Chart.js -->
 <script src="modules/chart/chart.js/dist/Chart.js"></script>
 <script src="js/app.js"></script>
+<!-- XML -->
+<script src="js/xml-table-generator.js"></script>
 </body>
 
 </html>

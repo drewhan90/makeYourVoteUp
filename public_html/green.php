@@ -15,12 +15,13 @@
                     <h3>green party</h3>
                     <p>Founded in 1983, The Green Party of Canada advance a broad multi-issue political platform that reflects its core values of ecological wisdom, social justice, grassroots democracy and non-violence. The party broke 1% of the popular vote in the 2004 federal election, when it received 4.3% and qualified for federal funding. In the 2008 federal election, the Green Party of Canada was invited to
                     </p>
-                    <a href="#">see party mp</a>
+                    <button class="primary-btn" onclick="loadXMLDoc('Green Party', 'CaucusShortName')">SEE PARTY'S MPs</button>
                 </div>
                 <div class="leader-container small-12 medium-6 large-6 columns">
                     <img src="img/parties/green-leader.jpg" alt="Leader Image" />
                     <p>Leader - Elizabeth May</p>
                 </div>
+                <table class="large-12 columns" id="mp"></table>
             </div>
 
             <!-- XML -->

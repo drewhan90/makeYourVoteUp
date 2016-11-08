@@ -23,7 +23,7 @@ function myFunction(xml, searchValue, tagName) {
       var valueOfCurrentEntry = getElementNodeValueByTagName( entry, tagName );
     }
     //console.log( partyOfCurrentEntry );
-    if ( valueOfCurrentEntry==searchValue   ||     searchValue== '' ){
+    if ( valueOfCurrentEntry==searchValue   ||  searchValue== '' ){
       table += "<tr><td>" +
       getElementNodeValueByTagName( entry, "PersonOfficialFirstName" ) + ' ' + getElementNodeValueByTagName( entry, "PersonOfficialLastName") +
       "</td><td>" +
