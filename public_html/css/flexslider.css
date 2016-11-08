@@ -130,11 +130,7 @@ html[xmlns] .flexslider .slides {
 .flex-direction-nav a.flex-next:before {
   content: '\f002';
 }
-.flex-direction-nav .flex-prev {
-  left: -50px;
-}
 .flex-direction-nav .flex-next {
-  right: -50px;
   text-align: right;
 }
 .flexslider:hover .flex-direction-nav .flex-prev {

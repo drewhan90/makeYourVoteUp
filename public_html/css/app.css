@@ -51,7 +51,7 @@ a {
 }
 
 video {
-    width: 100vw;
+    width: 100%;
 }
 
 ul {
@@ -433,10 +433,7 @@ COMPARE PARTIES
     width: 100%;
 }
 
-.accordion h1,
-h2,
-h3,
-h4 {
+.accordion h1, .accordion h2 {
     cursor: pointer;
 }
 
