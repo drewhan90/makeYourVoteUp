@@ -429,6 +429,21 @@ COMPARE PARTIES
     background-image: url(../img/compare/compare-hero.jpg);
 }
 
+.filters {
+    margin-bottom: 50px;
+}
+
+.filters button {
+    width: 100%;
+    padding: 20px 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
 
 /* Accordion */
 
@@ -463,19 +478,19 @@ COMPARE PARTIES
     text-align: center;
 }
 
-.accordion-liberal {
+.accordion-liberal, .filter-liberal {
     background-color: #d71920;
 }
 
-.accordion-con {
+.accordion-con, .filter-con {
     background-color: #01209f;
 }
 
-.accordion-ndp {
+.accordion-ndp, .filter-ndp {
     background-color: #f37021;
 }
 
-.accordion-green {
+.accordion-green, .filter-green {
     background-color: #3d9b35;
 }
 
