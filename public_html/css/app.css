@@ -441,8 +441,8 @@ COMPARE PARTIES
     text-align: center;
 }
 
-.hide {
-    display: none;
+.active {
+    background-color: grey!important;
 }
 
 /* Accordion */
