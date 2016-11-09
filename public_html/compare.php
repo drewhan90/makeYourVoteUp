@@ -31,27 +31,27 @@
             <aside class="accordion small-12 medium-12 large-12 columns">
                 <!-- Topic 1 -->
                 <h1>economy</h1>
-                <div class="opened-for-codepen">
+                <div class="whole-container opened-for-codepen">
                     <h2 class="accordion-liberal">liberal party of canada</h2>
-                    <div class="desc opened-for-codepen">
+                    <div class="desc desc-liberal opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-liberal opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-con">conservative party of canada</h2>
-                    <div class="desc opened-for-codepen">
+                    <div class="desc desc-con opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-con opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-ndp">new democratic party</h2>
-                    <div class="desc opened-for-codepen">
+                    <div class="desc desc-ndp opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-ndp opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-green">green party</h2>
-                    <div class="desc opened-for-codepen">
+                    <div class="desc desc-green opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-green opened-for-codepen">vote</a>
                     </div>
@@ -59,27 +59,27 @@
 
                 <!-- Topic 2 -->
                 <h1>economy</h1>
-                <div>
+                <div class="whole-container">
                     <h2 class="accordion-liberal">liberal party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-liberal opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-liberal opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-con">conservative party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-con opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-con opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-ndp">new democratic party</h2>
-                    <div class="desc">
+                    <div class="desc desc-ndp opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-ndp opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-green">green party</h2>
-                    <div class="desc">
+                    <div class="desc desc-green opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-green opened-for-codepen">vote</a>
                     </div>
@@ -87,27 +87,27 @@
 
                 <!-- Topic 3 -->
                 <h1>economy</h1>
-                <div>
+                <div class="whole-container">
                     <h2 class="accordion-liberal">liberal party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-liberal opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-liberal opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-con">conservative party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-con opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-con opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-ndp">new democratic party</h2>
-                    <div class="desc">
+                    <div class="desc desc-ndp opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-ndp opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-green">green party</h2>
-                    <div class="desc">
+                    <div class="desc desc-green opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-green opened-for-codepen">vote</a>
                     </div>
@@ -115,27 +115,27 @@
 
                 <!-- Topic 4 -->
                 <h1>economy</h1>
-                <div>
+                <div class="whole-container">
                     <h2 class="accordion-liberal">liberal party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-liberal opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-liberal opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-con">conservative party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-con opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-con opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-ndp">new democratic party</h2>
-                    <div class="desc">
+                    <div class="desc desc-ndp opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-ndp opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-green">green party</h2>
-                    <div class="desc">
+                    <div class="desc desc-green opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-green opened-for-codepen">vote</a>
                     </div>
@@ -143,27 +143,27 @@
 
                 <!-- Topic 5 -->
                 <h1>economy</h1>
-                <div>
+                <div class="whole-container">
                     <h2 class="accordion-liberal">liberal party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-liberal opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-liberal opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-con">conservative party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-con opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-con opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-ndp">new democratic party</h2>
-                    <div class="desc">
+                    <div class="desc desc-ndp opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-ndp opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-green">green party</h2>
-                    <div class="desc">
+                    <div class="desc desc-green opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-green opened-for-codepen">vote</a>
                     </div>
@@ -171,27 +171,27 @@
 
                 <!-- Topic 6 -->
                 <h1>economy</h1>
-                <div>
+                <div class="whole-container">
                     <h2 class="accordion-liberal">liberal party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-liberal opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-liberal opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-con">conservative party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-con opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-con opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-ndp">new democratic party</h2>
-                    <div class="desc">
+                    <div class="desc desc-ndp opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-ndp opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-green">green party</h2>
-                    <div class="desc">
+                    <div class="desc desc-green opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-green opened-for-codepen">vote</a>
                     </div>
@@ -199,27 +199,27 @@
 
                 <!-- Topic 7 -->
                 <h1>economy</h1>
-                <div>
+                <div class="whole-container">
                     <h2 class="accordion-liberal">liberal party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-liberal opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-liberal opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-con">conservative party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-con opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-con opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-ndp">new democratic party</h2>
-                    <div class="desc">
+                    <div class="desc desc-ndp opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-ndp opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-green">green party</h2>
-                    <div class="desc">
+                    <div class="desc desc-green opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-green opened-for-codepen">vote</a>
                     </div>
@@ -227,27 +227,27 @@
 
                 <!-- Topic 8 -->
                 <h1>economy</h1>
-                <div>
+                <div class="whole-container">
                     <h2 class="accordion-liberal">liberal party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-liberal opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-liberal opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-con">conservative party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-con opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-con opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-ndp">new democratic party</h2>
-                    <div class="desc">
+                    <div class="desc desc-ndp opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-ndp opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-green">green party</h2>
-                    <div class="desc">
+                    <div class="desc desc-green opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-green opened-for-codepen">vote</a>
                     </div>
@@ -255,27 +255,27 @@
 
                 <!-- Topic 9 -->
                 <h1>economy</h1>
-                <div>
+                <div class="whole-container">
                     <h2 class="accordion-liberal">liberal party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-liberal opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-liberal opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-con">conservative party of canada</h2>
-                    <div class="desc">
+                    <div class="desc desc-con opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-con opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-ndp">new democratic party</h2>
-                    <div class="desc">
+                    <div class="desc desc-ndp opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-ndp opened-for-codepen">vote</a>
                     </div>
 
                     <h2 class="accordion-green">green party</h2>
-                    <div class="desc">
+                    <div class="desc desc-green opened-for-codepen">
                         <p class="opened-for-codepen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <a class="vote vote-green opened-for-codepen">vote</a>
                     </div>

@@ -15,8 +15,54 @@ $(document).ready(function() {
 
     // FILTERS
     $('.filters button').click(function() {
-        console.log('.filters button');
-        $('.accordion-liberal .desc').toggleClass('hide');
+        if($(this).hasClass('filter-liberal')) {
+            if(!$(this).hasClass('active')) {
+                $(this).addClass('active');
+                $('.accordion-liberal').toggle();
+                $('.desc-liberal').toggle();
+            }
+            else {
+                $(this).removeClass('active');
+                $('.accordion-liberal').toggle();
+                $('.desc-liberal').toggle();
+            }
+        }
+        else if($(this).hasClass('filter-con')) {
+            if(!$(this).hasClass('active')) {
+                $(this).addClass('active');
+                $('.accordion-con').toggle();
+                $('.desc-con').toggle();
+            }
+            else {
+                $(this).removeClass('active');
+                $('.accordion-con').toggle();
+                $('.desc-con').toggle();
+            }
+        }
+        else if($(this).hasClass('filter-ndp')) {
+            if(!$(this).hasClass('active')) {
+                $(this).addClass('active');
+                $('.accordion-ndp').toggle();
+                $('.desc-ndp').toggle();
+            }
+            else {
+                $(this).removeClass('active');
+                $('.accordion-ndp').toggle();
+                $('.desc-ndp').toggle();
+            }
+        }
+        else {
+            if(!$(this).hasClass('active')) {
+                $(this).addClass('active');
+                $('.accordion-green').toggle();
+                $('.desc-green').toggle();
+            }
+            else {
+                $(this).removeClass('active');
+                $('.accordion-green').toggle();
+                $('.desc-green').toggle();
+            }
+        }
     });
 
     // ACCORDION
