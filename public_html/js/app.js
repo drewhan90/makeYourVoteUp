@@ -13,6 +13,12 @@ $(document).ready(function() {
         this.play();
     });
 
+    // FILTERS
+    $('.filters button').click(function() {
+        console.log('.filters button');
+        $('.accordion-liberal .desc').toggleClass('hide');
+    });
+
     // ACCORDION
     var headers = ["H1", "H2", "H3", "H4", "H5", "H6"];
 
@@ -39,7 +45,7 @@ $(document).ready(function() {
         }
     });
 
-    
+
 
     //////////////////////
     /// Tabs by Andrew ///
@@ -54,7 +60,7 @@ $(document).ready(function() {
     ////////////////////////////////////
     /// Voting System - LocalStorage ///
     ////////////////////////////////////
-    
+
     /*let lCount = 0;
     let cCount = 0;
     let gCount = 0;
@@ -67,7 +73,7 @@ $(document).ready(function() {
     $('.vote').click(function(){
         $('.votePoints').show();
         //myStorage = localStorage;
-        
+
         // if this has liberal class
         if ($(this).hasClass('vote-liberal')){
             /// Add point when clicked
@@ -154,5 +160,5 @@ $(document).ready(function() {
         }
     });
 
-    
+
 });

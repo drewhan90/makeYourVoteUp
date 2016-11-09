@@ -8,6 +8,24 @@
     </section>
 
     <main class="compare-main">
+        <!-- FILTERS -->
+        <div class="filters row">
+            <ul>
+                <li class="large-3 columns">
+                    <button class="filter-liberal">liberal</button>
+                </li>
+                <li class="large-3 columns">
+                    <button class="filter-con">consevertive</button>
+                </li>
+                <li class="large-3 columns">
+                    <button class="filter-ndp">ndp</button>
+                </li>
+                <li class="large-3 columns">
+                    <button class="filter-green">green</button>
+                </li>
+            </ul>
+        </div>
+
         <!-- ACCORDION SECTION -->
         <section class="accordion-section row">
             <aside class="accordion small-12 medium-12 large-12 columns">
