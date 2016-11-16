@@ -24,7 +24,7 @@
         <!-- MAP SECTION-->
         <section class="map-section">
             <div class="map-svg">
-                <?php echo file_get_contents("svg/complete-canada-map.svg"); ?>
+                <?php echo file_get_contents("svg/complete-canada-map2.svg"); ?>
             </div>
         </section>
 
